@@ -14,18 +14,24 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 
 import { AppComponent } from './app.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
+    HttpClientModule,
     FormsModule,
     GaugeModule.forRoot(),
-    
+    MatFormFieldModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatIconModule,
     
   ],
   providers: [],
