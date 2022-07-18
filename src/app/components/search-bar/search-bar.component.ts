@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+/**import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-search-bar',
@@ -12,4 +12,4 @@ export class SearchBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+}**/
