@@ -5,12 +5,12 @@ import { HomeComponent } from './components/home/home.component';
 const routes: Routes = [
   {
     path: '',
-    componet: HomeComponent,
+    component: HomeComponent,
   },
 
   {
     path: 'search/:game-search',
-    componet: HomeComponent,
+    component: HomeComponent,
   }
 ];
 
